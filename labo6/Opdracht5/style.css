@@ -1,0 +1,10 @@
+a{
+    content: "";
+    height: 11px;
+    margin-left: 20px;
+    background-image: url(/labo6/Opdracht5/assets/clip.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
