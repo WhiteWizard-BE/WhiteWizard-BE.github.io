@@ -1,0 +1,36 @@
+body{
+    margin:auto;
+    width: 95%;
+    font-family: Verdana, Helvetica, Arial;
+    font-size: 1.2em;
+    display: flex;
+
+}
+h1,h2{
+    color: #007e7e;
+
+}
+h1{
+    font-size: 150%;
+}
+h2{
+    font-size: 130%;
+}
+.rubriek{
+    color: red;
+    text-align: center;
+}
+footer{
+    font-size: 50%;
+}
+.hover :hover{
+    background-color: brown;
+
+}
+.weekly{
+    text-align: center;
+    order: 1;
+}
+header{
+    order: -1;
+}

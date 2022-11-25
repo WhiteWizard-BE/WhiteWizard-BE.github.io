@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(15, 194, 119);
+    color: rgb(1, 73, 43);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h1,h2{
+    color: white;
+}
+td,th{
+    color: black;
+}
