@@ -4,6 +4,8 @@ body{
     font-family: Verdana, Helvetica, Arial;
     font-size: 1.2em;
     display: flex;
+    flex-wrap: wrap;
+
 
 }
 h1,h2{
@@ -30,7 +32,39 @@ footer{
 .weekly{
     text-align: center;
     order: 1;
+    flex: 29%;
+    border-style: solid;
 }
 header{
     order: -1;
+}
+#guarantee{
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border-style: dotted;
+    border-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.origin{
+    flex: 70%;
+}
+footer{
+    order: 99;
+}
+.star{
+    
+    order: 1;
+    flex: 10%;
+    
+}
+.startext{
+    order: 2;
+    flex: 90%;
+    font-style: italic;
+
+}
+.pinkstuff{
 }
