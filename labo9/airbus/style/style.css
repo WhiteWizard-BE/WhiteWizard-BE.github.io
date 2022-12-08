@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background: #E6E6E6 url('../fotos/pagebackground.png') repeat-y center;
+    font-family: "Arial", "Helvetica", sans-serif
+}
+
+#container {
+    margin: 0 auto;
+    width: 957px; /* 956px zorgde voor een kleine witte streep */
+}
+
+.top {
+    height: 200px;
+    background-image: url("../fotos/bgsky3.jpg");
+    position: relative;
+}
+
+.top > p {
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.top > p:nth-child(1) {
+    margin-top: 0;
+    font-size: 300%;
+    font-style: italic;
+}
+
+.top > p:nth-child(2) {
+    font-size: 240%;
+}
+
+.top > img {
+    position: absolute;
+    right: 90px;
+    bottom: 60px;
+}
+
+.main {
+    /*float: left;*/
+    width: 700px;
+}
+
+.main > div > img {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.introduction > p {
+    overflow: hidden;
+    margin: 20px 30px 20px 0;
+    text-align: justify;
+}
+
+.introduction span {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.news {
+    float: right;
+    width: 250px;
+    background-color: #dddddd;
+    border: 1px solid #999999
+}
+
+.news h3 {
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+.news p {
+    color: #666666;
+    font-size: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gallery {
+    background-color: #999999;
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    background-color: white;
+    border: 1px dotted #999999;
+    float: left;
+    margin: 10px 10px;
+}
+
+.bottom {
+    clear: both;
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+}
+
+.bottom a {
+    color: white;
+}
+
+.bottom a:hover {
+    color: red;
+}
+
+.block {
+    display: inline-block;
+    margin-left: 120px;
+    margin-bottom: 0;
+}
+
+.copyright {
+    text-align: center;
+    color: black;
+    background-color: white;
+}
